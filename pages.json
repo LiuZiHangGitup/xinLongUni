@@ -1,0 +1,86 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/index/index"
+		}
+	    ,{
+            "path" : "pages/about/about"
+        }
+        ,{
+            "path": "pages/forgetPassword/forgetPassword"
+        }
+        ,{
+            "path" : "pages/register/register"
+        }
+        ,{
+            "path" : "pages/login/login"
+        }
+        ,{
+            "path" : "pages/me/me"
+        }
+        ,{
+            "path" : "pages/classIfication/classIfication"
+        }
+        ,{
+            "path" : "pages/repair/repair"
+        }
+        ,{
+            "path" : "pages/market/market",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/goodInformation/goodInformation",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/bindPhone/bindPhone",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/orderInformation/orderInformation",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle" : "custom"
+	},
+	"tabBar":{
+		"color" : "#909399",
+		"selectedColor" : "#f49800",
+		"borderStyle" : "white",
+		"backgroundColor" : "#FFFFFF",
+		"list" : [
+			// 
+			// {
+			// 	"pagePath" : "pages/register/register",
+			// 	"text" : "客服",
+			// 	"iconPath" : "./static/footBar/keFu.png",
+			// 	"selectedIconPath" : "./static/footBar/keFuActive.png"
+			// },
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"./static/footBar/index.png",
+				"selectedIconPath":"./static/footBar/indexActive.png"
+			},
+			{
+				"pagePath" : "pages/classIfication/classIfication",
+				"text" : "分类",
+				"iconPath" : "./static/footBar/fenLei.png",
+				"selectedIconPath" : "./static/footBar/fenLeiActive.png"
+			},
+			{
+				"pagePath" : "pages/about/about",
+				"text" : "关于",
+				"iconPath" : "./static/footBar/about.png",
+				"selectedIconPath" : "./static/footBar/aboutActive.png"
+			},
+			{
+				"pagePath" : "pages/me/me",
+				"text" : "我的",
+				"iconPath" : "./static/footBar/me.png",
+				"selectedIconPath" : "./static/footBar/meActive.png"
+			}
+		]
+	}
+}
